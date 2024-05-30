@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --vanilla-white: #efefef;
+  --denim: #214166;
+  --shark-50: #f4f6f7;
+  --kashmir-blue-500: #57729a;
+  --primary-light: #eef6ff;
+  --alice-blue-400: #38abf8;
+  --shark-500: #606f7a;
+}
+
+body {
+  background-color: var(--vanilla-white);
+  height: 100vh;
+  direction: rtl;
+  font-size: 16px;
+  overflow: hidden;
+}
